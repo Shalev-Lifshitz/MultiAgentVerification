@@ -42,8 +42,6 @@ We recommend using a conda environment with Python 3.10.
 
 ## Run the code
 
-First, make sure to write the path to your project 
-
 ### Using Example Data (No API Calls)
 
 The repository includes an example file `example_math_gemini-1.5-flash.zip` in `runs/` containing pre-generated BoN-MAV data for 300 questions from MATH using Gemini-1.5-Flash as the generator LLM. For each question, this contains 16 candidate solutions and their binary approvals from the domain-specific aspect verifiers for MATH.
