@@ -84,18 +84,6 @@ Parameters you can configure:
 - `--gen-temp`: Generator temperature (default: 0.7)
 - `--vera-temp`: Verifier temperature (default: 0.0)
 
-For HumanEval, run:
-
-```bash
-cd src/dataset_files/simple_evals/
-git clone https://github.com/openai/human-eval
-touch human-eval/__init__.py
-pip install -e human-eval
-mv human-eval human_eval_files  # since we cannot have dashes in module names
-cd ../../..
-pip install -e .
-```
-
 ### Advanced Configuration
 
 The code is set up to load domain-specific verifiers for each dataset using `load_domain_specific_verifiers()` in `src/main.py`. You can override this function to load your own combination of verifiers, and create new verifiers by adding to the `vera_names_to_prompts` dictionary in `src/prompts/vera_prompts.py`.
