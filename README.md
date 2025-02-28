@@ -27,8 +27,6 @@ By utilizing more computational resources at test-time, large language models (L
 │       ├── The prompts for the generator LLMs and each aspect verifier.
 │   ├── utils
 │       ├── Various helper functions.
-│   ├── example_data
-│       ├── gemini-1.5-flash_MATH.json
 ```
 
 # Try Multi-Agent Verification
