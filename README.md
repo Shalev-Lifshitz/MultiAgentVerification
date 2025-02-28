@@ -93,7 +93,7 @@ While this repository does not include code for reward model verification, you c
 # BoN-MAV Illustration
 
 ![BoN-MAV Multi-Agent Verification](images/bon_mav_multi.jpg)
-*BoN-MAV is one simple implementation of a multi-agent verification algorithm. Multiple aspect verifiers checking different aspects of solutions are used to evaluate candidate outputs and the solution with the most approvals is selected.*
+*BoN-MAV is one simple implementation of a multi-agent verification algorithm. Multiple verifiers, each checking different aspects of solutions, are used to evaluate candidate outputs and the solution with the most approvals is selected.*
 
 # BibTeX
 
