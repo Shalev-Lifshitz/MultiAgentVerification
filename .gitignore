@@ -1,0 +1,8 @@
+runs/*
+MATH/*
+*.egg-info/*
+*.egg/*
+*.pyc
+*_cache/*
+*__pycache__/*
+.idea/*
